@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
-  color: #f6f6f6;
+  color: #ee1111;
 
 }
 
@@ -155,7 +155,7 @@ form button {
 }
 
 form button:hover {
-  background: #555;
+  background: #EE2B47;
 }
 
 
