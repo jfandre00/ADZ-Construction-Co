@@ -180,3 +180,36 @@ footer {
 footer a:hover {
   color: white;
 }
+
+/* Estilos para telas pequenas */
+@media (max-width: 768px) {
+    .logo {
+        height: 50px; /* Reduz a altura do logo */
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens quebrem em uma nova linha */
+    }
+
+    nav ul li {
+        margin: 0 3px; /* Reduz o espaço entre os itens da lista */
+        width: 45%; /* Ajusta a largura dos itens da lista para caber em duas linhas */
+    }
+
+    header {
+        padding: 5px 0; /* Reduz o padding do header */
+    }
+
+    footer {
+        padding: 10px 0; /* Ajusta o padding do footer */
+        font-size: 0.7em; /* Reduz ainda mais o tamanho da fonte do footer */
+    }
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 769px) {
+    nav ul li a {
+        font-size: 1.6em; /* Aumenta o tamanho da fonte dos itens da lista */
+    }
+}
