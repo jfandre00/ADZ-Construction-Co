@@ -38,12 +38,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #EE2B47;
+  color: #fff;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: #fff;
+  color: #EE2B47;
   text-decoration: underline;
 }
 
@@ -167,7 +167,7 @@ form button:hover {
 
 footer {
   background: #333;
-  color: #EE2B47;
+  color: #fff;
   text-align: center;
   padding: 5px 0;
   margin-top: 20px;
@@ -178,7 +178,7 @@ footer {
 }
 
 footer a:hover {
-  color: white;
+  color: #fff;
 }
 
 /* Estilos para telas pequenas */
