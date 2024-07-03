@@ -1,35 +1,176 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
-  background-color: #878787;
-  color: #ee2b47
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #f6f6f6;
+
 }
-#container {
+
+header {
+  background: #3a3a3a;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  border: 2px solid #EE2B47;
+}
+
+nav {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Ajuste conforme necessário */
 }
 
-img {
-  width: 60%;
-  height: auto;
-  margin: 0 auto;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
 
-h1 {
-  text-align: center;
-  font-size: 3.8vw;
-  font-weight: 800;
+nav ul li a {
+  color: #EE2B47;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
   text-decoration: underline;
 }
 
-p {
-  color: #f6f6f6;
+.logo {
+  height: 100px; /* Ajuste a altura conforme necessário */
+  margin-right: 10px; /* Espaço entre o logo e a lista de navegação */
+}
+
+section {
+  padding: 20px;
+  margin: 100px 0; 
+  background: rgb(135, 135, 135);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 3vw;
+  color: #212121;
   text-align: center;
-  font-size: 1.8vw;
-  margin: 2px;
-  font-weight: 500;
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgb(41, 41, 41);
+  text-align: center;
+  font-weight: 600;
+}
+
+h3 {
+  color: rgb(41,41,41);
+  text-align: center;
+  font-weight: 600;
+}
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: #EE2B47;
+}
+
+p a:hover {
+  color: rgb(41, 41, 41);
+}
+
+
+#home {
+  text-align: center;
+}
+
+#casas {
+  width: 35%;
+  border: 2px solid #EE2B47;
+
+}
+
+#projects {
+  text-align: center;
+}
+
+#projects h3 {
+  color: #EE2B47;
+}
+
+
+#obras {
+  width: 30%;
+  border: 2px solid #EE2B47;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;  
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+}
+
+form button:hover {
+  background: #555;
+}
+
+
+footer {
+  background: #333;
+  color: #EE2B47;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border: 2px solid #EE2B47;
+}
+
+footer a:hover {
+  color: white;
 }
