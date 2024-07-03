@@ -105,6 +105,7 @@ p a:hover {
 #mapa {
   width: 35%;
   border: 2px solid #EE2B47;
+  cursor: pointer;
 
 }
 
@@ -113,7 +114,8 @@ p a:hover {
 }
 
 #projects h3 {
-  color: #EE2B47;
+  color: #212121;
+  text-decoration: underline;
 }
 
 
@@ -213,3 +215,46 @@ footer a:hover {
         font-size: 1.6em; /* Aumenta o tamanho da fonte dos itens da lista */
     }
 }
+
+/* O modal (fundo preto) */
+.modal {
+    display: none; /* Esconda o modal por padrão */
+    position: fixed; /* Fique no lugar */
+    z-index: 1000; /* Fique no topo */
+    padding-top: 100px; /* Localize o conteúdo do modal 100px da parte superior */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Habilita rolagem se necessário */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Estilo do conteúdo do modal (imagem) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Estilo do botão fechar */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
