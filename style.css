@@ -7,6 +7,14 @@ body {
 
 }
 
+#corpo {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+}
+
 header {
   background: #3a3a3a;
   color: #fff;
@@ -272,4 +280,15 @@ footer a:hover {
 
 .modal-image {
   cursor: pointer;
+}
+
+a#voltar {
+  font-size: 20px;
+  color: #EE2B47;
+  font-weight: 900;
+}
+
+a#voltar:hover {
+  color: #212121;
+  text-decoration: none;
 }
