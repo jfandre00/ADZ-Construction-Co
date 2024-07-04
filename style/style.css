@@ -187,8 +187,8 @@ footer {
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
-  margin-top: 20px;
+  padding: 3px 0;
+  margin-top: 6px;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -220,15 +220,26 @@ footer a:hover {
     }
 
     footer {
-        padding: 10px 0; /* Ajusta o padding do footer */
-        font-size: 0.7em; /* Reduz ainda mais o tamanho da fonte do footer */
+        padding: 3px 0; /* Ajusta o padding do footer */
+        font-size: 0.5em; /* Reduz ainda mais o tamanho da fonte do footer */
+    }
+    #valores {
+        width: 25%;
     }
 }
 
 /* Estilos para telas grandes */
 @media (min-width: 769px) {
     nav ul li a {
-        font-size: 1.6em; /* Aumenta o tamanho da fonte dos itens da lista */
+        font-size: 1.3em; /* Aumenta o tamanho da fonte dos itens da lista */
+        background-color: #878787;
+        border-radius: 6px;
+        padding: 2px;
+        margin: 2px;
+    }
+    nav ul li a:hover {
+        background-color: #EE2B47;
+        color: white;
     }
 }
 
