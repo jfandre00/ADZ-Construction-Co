@@ -1,26 +1,27 @@
-// Pegue o modal
-var modal = document.getElementById('modal');
+// script.js
 
-// Pegue a imagem e insira-a no modal - use seu "alt" como uma legenda
-var img = document.getElementById('mapa');
-var modalImg = document.getElementById("modalImg");
+// Get the modal
+var modal = document.getElementById("modal");
 
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var modalImg = document.getElementById("modalImage");
+
+// Function to open the modal with the clicked image
+function openModal() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
 }
 
-// Pegue o elemento <span> que fecha o modal
+// Get all images with the class 'modal-image'
+var images = document.querySelectorAll('.modal-image');
+images.forEach(function(image) {
+  image.addEventListener('click', openModal);
+});
+
+// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// Quando o usuário clicar em <span> (x), feche o modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-
-// Também pode fechar o modal clicando fora da imagem
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
 }
