@@ -229,18 +229,19 @@ footer a:hover {
 
     h1 {
       margin-top: 10px;
+      font-size: 4vw;
     }
   
     #home p strong {
-      font-size: 1.6vw;
+      font-size: 2.5vw;
     }
 
     h2, h3 {
-      font-size: 3vw;
+      font-size: 3.5vw;
     }
 
     p {
-      font-size: 2.5vw;
+      font-size: 3.2vw;
       padding: 0px;
       text-align: center;
       
@@ -248,8 +249,12 @@ footer a:hover {
   
     footer {
         padding: 3px 0; /* Ajusta o padding do footer */
-        font-size: 0.5em; /* Reduz ainda mais o tamanho da fonte do footer */
     }
+
+    footer #parafooter {
+      font-size: 0.5em; /* Reduz ainda mais o tamanho da fonte do footer */
+    }
+  
     #valores {
         width: 25%;
     }
