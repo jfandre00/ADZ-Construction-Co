@@ -24,6 +24,7 @@ header {
   top: 0;
   z-index: 1000;
   border: 2px solid #EE2B47;
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
 }
 
 nav {
@@ -43,7 +44,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 nav ul li a {
@@ -59,15 +60,21 @@ nav ul li a:hover {
 .logo {
   height: 100px; /* Ajuste a altura conforme necessário */
   margin-right: 10px; /* Espaço entre o logo e a lista de navegação */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
 section {
   padding: 20px;
-  margin: 100px 0; 
+  margin: 20px auto; 
   background: rgb(135, 135, 135);
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  width: 70%
 }
+section#home {
+  margin: 80px auto;
+  margin-bottom: 0px;
+} 
 
 h1 {
   font-size: 3vw;
@@ -75,7 +82,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   margin-bottom: 5px;
-  margin-top: 22px;
+  margin-top: 40px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
@@ -98,7 +105,10 @@ h3 {
 }
 
 p {
+  font-size: 1.1vw;
   text-align: center;
+  font-weight: 500;
+  margin: 40px;
 }
 
 p a {
@@ -203,6 +213,7 @@ footer {
   width: 100%;
   bottom: 0;
   border: 2px solid #EE2B47;
+  box-shadow: 3px 3px 7px rgba(0,0,0,0.5);
 }
 
 footer a:hover {
@@ -229,6 +240,10 @@ footer a:hover {
         padding: 5px 0; /* Reduz o padding do header */
     }
 
+    section {
+      width: 90%;
+    }
+
     h1 {
       margin-top: 10px;
       font-size: 4vw;
@@ -243,7 +258,7 @@ footer a:hover {
     }
 
     p {
-      font-size: 3.2vw;
+      font-size: 2.7vw;
       padding: 0px;
       text-align: center;
       
@@ -265,12 +280,12 @@ footer a:hover {
 /* Estilos para telas grandes */
 @media (min-width: 769px) {
     nav ul li a {
-        font-size: 1.3em; /* Aumenta o tamanho da fonte dos itens da lista */
+        font-size: 1.2em; /* Aumenta o tamanho da fonte dos itens da lista */
         background-color: #878787;
         box-shadow: 2px 2px 2px black;
         border-radius: 8px;
-        padding: 2px 8px;
-        margin: 2px;
+        padding: 2px 4px;
+        margin: 0px;
     }
     nav ul li a:hover {
         background-color: #EE2B47;
