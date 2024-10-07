@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 .logo {
-  height: 100px; /* Ajuste a altura conforme necessário */
+  height: 60px; /* Ajuste a altura conforme necessário */
   margin-right: 10px; /* Espaço entre o logo e a lista de navegação */
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
 }
