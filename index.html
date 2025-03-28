@@ -102,6 +102,32 @@
     <section id="contact">
         <h2>Contact Us - Soon</h2>
         <p>We would love to hear from you! Whether you have questions about our services, projects, or investment opportunities, feel free to reach out to us.</p>
+        <form action="https://api.staticforms.xyz/submit" method="POST">
+          <input type="hidden" name="apiKey" value="40b582ef-042e-4b9e-a794-ec30aa7b2a26" />
+
+          <!-- Your form fields -->
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="Message" required></textarea>
+
+          <!-- reCAPTCHA widget -->
+          <div class="g-recaptcha" data-sitekey="6LfxZQIrAAAAADxldgVOjOjMxreqhMicktR7esWB"></div>
+
+          <button type="submit">Send</button>
+
+          <!-- Include reCAPTCHA JavaScript -->
+          <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        </form>
+
+
+
+
+
+
+
+
+
+      <!--
         <form action="https://api.staticforms.xyz/submit" method="post">
           <input type="hidden" name="accessKey" value="40b582ef-042e-4b9e-a794-ec30aa7b2a26">
           <label for="name">Name:</label>
@@ -114,6 +140,7 @@
           <button type="submit">Submit</button>
           <input type="hidden" name="redirectTo" value="https://adzconstructionco.com/thanks.html">
         </form>
+      -->
       <div id="listasdebaixo">  
           <p>
             Address: Not Yet Defined |
