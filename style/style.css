@@ -358,3 +358,8 @@ a#voltar:hover {
 #logo2 {
   width: 50%;
 }
+
+.g-recaptcha {
+    display: block;
+    margin: 0 auto;
+}
